@@ -34,8 +34,8 @@ plt.rcParams['axes.unicode_minus'] = False
 
 
 # Initialize OpenAI clients for vllm
-vllm_client = openai.OpenAI(base_url=API_BASE, api_key="dummy")
-vllm_client_async = openai.AsyncOpenAI(base_url=API_BASE, api_key="dummy")
+vllm_client = openai.OpenAI(base_url=API_BASE, api_key="EMPTY")
+vllm_client_async = openai.AsyncOpenAI(base_url=API_BASE, api_key="EMPTY")
 
 # Create router for chat endpoints
 router = APIRouter(prefix="/v1/chat", tags=["chat"])
@@ -148,8 +148,8 @@ async def chat_completions(
                     # 使用异步迭代
                     async for chunk in response:
                         last_chunk = chunk
-                        if chunk.choices and chunk.choices[0].delta.content is not None:
-                            delta = chunk.choices[0].delta.content
+                        if chunk.choices and hasattr(chunk.choices[0].delta,"reasoning_content") and chunk.choices[0].delta.reasoning_content is not None:
+                            delta = chunk.choices[0].delta.reasoning_content
                             cur_res += delta
                             assistant_reply += delta
 
@@ -297,13 +297,15 @@ async def chat_completions(
                         "max_new_tokens": MAX_NEW_TOKENS,
                     },
                 )
-
+                
                 cur_res = ""
                 last_finish_reason: Optional[str] = None
                 # For async streaming, we need to iterate through async chunks
+
                 async for chunk in response:
-                    if chunk.choices and chunk.choices[0].delta.content is not None:
-                        delta = chunk.choices[0].delta.content
+                    # import pdb;pdb.set_trace()
+                    if chunk.choices and chunk.choices[0].delta and hasattr(chunk.choices[0].delta,"reasoning_content") and chunk.choices[0].delta.reasoning_content is not None:
+                        delta = chunk.choices[0].delta.reasoning_content
                         cur_res += delta
                         assistant_reply += delta
                     last_finish_reason = chunk.choices[0].finish_reason

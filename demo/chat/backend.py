@@ -38,8 +38,11 @@ import re
 os.environ.setdefault("MPLBACKEND", "Agg")
 Chinese_matplot_str = """
 import matplotlib.pyplot as plt
-plt.rcParams['font.sans-serif'] = ['SimHei'] 
-plt.rcParams['axes.unicode_minus'] = False    
+# 检查可用的中文字体，优先使用DejaVu Sans作为fallback
+available_fonts = plt.rcParams['font.sans-serif']
+if 'DejaVu Sans' not in available_fonts:
+    plt.rcParams['font.sans-serif'] = ['DejaVu Sans'] + available_fonts
+plt.rcParams['axes.unicode_minus'] = False
 """
 
 def execute_code(code_str):
@@ -126,18 +129,18 @@ def execute_code_safe(
 
 
 # API endpoint and model path
-API_BASE = "http://localhost:8000/v1"  # this localhost is for vllm api, do not change
+API_BASE = "http://10.94.208.28:8097/v1"  # this localhost is for vllm api, do not change
 MODEL_PATH = "DeepAnalyze-8B"  # replace to your path to DeepAnalyze-8B
 
 
 # Initialize OpenAI client
-client = openai.OpenAI(base_url=API_BASE, api_key="dummy")
+client = openai.OpenAI(base_url=API_BASE, api_key="EMPTY")
 
 # Workspace directory
 WORKSPACE_BASE_DIR = "workspace"
 HTTP_SERVER_PORT = 8100
 HTTP_SERVER_BASE = (
-    f"http://localhost:{HTTP_SERVER_PORT}"  # you can replace localhost to your local ip
+    f"http://localhost:{HTTP_SERVER_PORT}"  # Fixed: added localhost hostname
 )
 
 
@@ -470,6 +473,7 @@ async def proxy(url: str):
     try:
         async with httpx.AsyncClient(follow_redirects=True, timeout=15) as client:
             r = await client.get(url)
+            print(r)
         return Response(
             content=r.content,
             media_type=r.headers.get("content-type", "application/octet-stream"),
@@ -478,7 +482,6 @@ async def proxy(url: str):
         )
     except Exception as e:
         raise HTTPException(status_code=502, detail=f"Proxy fetch failed: {e}")
-
 
 @app.post("/workspace/upload")
 async def upload_files(
@@ -687,11 +690,19 @@ def bot_stream(messages, workspace, session_id="default"):
         )
         cur_res = ""
         for chunk in response:
-            if chunk.choices and chunk.choices[0].delta.content is not None:
-                delta = chunk.choices[0].delta.content
-                cur_res += delta
-                assistant_reply += delta
-                yield delta
+            if not chunk.choices:
+                continue
+            delta = chunk.choices[0].delta
+            seg = getattr(delta, 'reasoning_content', None) or delta.content
+            if seg is not None:
+                cur_res += seg
+                assistant_reply += seg
+                yield seg
+            # if chunk.choices and chunk.choices[0].delta.content is not None:
+            #     delta = chunk.choices[0].delta.content
+            #     cur_res += delta
+            #     assistant_reply += delta
+            #     yield delta
             if "</Answer>" in cur_res:
                 finished = True
                 break

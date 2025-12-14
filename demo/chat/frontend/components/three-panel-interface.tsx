@@ -1180,12 +1180,20 @@ export function ThreePanelInterface() {
 
   // 若 URL 缺少 generated 目录，则在 session 段后注入 /generated
   const ensureGeneratedInUrl = (url: string): string => {
+    if (!url) return url;
+    
+    // 如果URL已经包含generated，直接返回
+    if (url.includes('/generated/')) {
+      return url;
+    }
+    
     try {
       const u = new URL(url);
       // 仅处理指向文件服务器(8100)的链接
       if (!(u.hostname === "localhost" || u.hostname.startsWith("127."))) {
         return url;
       }
+      
       // 路径形如 /session_xxx/xxx.png，则插入 /generated
       const parts = u.pathname.split("/").filter(Boolean);
       if (parts.length >= 2) {
@@ -1198,6 +1206,14 @@ export function ThreePanelInterface() {
       }
       return url;
     } catch {
+      // 如果不是完整URL，可能是相对路径
+      if (url.startsWith('session_') && !url.includes('/generated/')) {
+        const parts = url.split('/');
+        if (parts.length >= 2) {
+          const [session, ...rest] = parts;
+          return `${session}/generated/${rest.join('/')}`;
+        }
+      }
       return url;
     }
   };

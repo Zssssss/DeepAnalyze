@@ -1,0 +1,343 @@
+INFO:     Started server process [29065]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8200 (Press CTRL+C to quit)
+HTTP Server serving workspace at port 8100
+🚀 启动后端服务...
+   - API服务: http://localhost:8200
+   - 文件服务: http://localhost:8100
+INFO:     172.29.64.1:61409 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:51674 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:51423 - "OPTIONS /chat/completions HTTP/1.1" 200 OK
+INFO:     172.29.64.1:60847 - "POST /chat/completions HTTP/1.1" 200 OK
+INFO:     172.29.64.1:60847 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:60847 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "POST /workspace/upload-to?dir=&session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "POST /chat/completions HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpbhk3av0h.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp706xfdkk.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp5tr7pgig.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpn_r9slav.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpltywu_e5.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp6qpizdiq.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp8w9ns_nb.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpprf2t5oc.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpu_58g02w.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpo4wcc061.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpchr9xo4a.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp36q4dk7o.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpqtifac01.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp40pny_l2.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmplu3gszf6.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp8xhp91tr.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:49763 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "POST /chat/completions HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpft96p8c5.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:65522 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52477 - "POST /chat/completions HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp63hlv8mk.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp2nuc4ofj.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:52692 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+172.29.64.1 - - [14/Dec/2025 22:29:41] "GET /session_1765531529504_nsjwnna21/generated/generated_chart.png HTTP/1.1" 200 -
+<Response [200 OK]>
+INFO:     172.29.64.1:58600 - "GET /proxy?url=http%3A%2F%2F172.29.74.224%3A8100%2Fsession_1765531529504_nsjwnna21%2Fgenerated%2Fgenerated_chart.png HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmptwpghv0t.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpsk2a4pj2.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:52692 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:64973 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+172.29.64.1 - - [14/Dec/2025 22:30:01] "GET /session_1765531529504_nsjwnna21/generated/final_chart.png HTTP/1.1" 200 -
+<Response [200 OK]>
+INFO:     172.29.64.1:63980 - "GET /proxy?url=http%3A%2F%2F172.29.74.224%3A8100%2Fsession_1765531529504_nsjwnna21%2Fgenerated%2Ffinal_chart.png HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:58048 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:58048 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:58048 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:58048 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+172.29.64.1 - - [14/Dec/2025 22:30:20] "GET /session_1765531529504_nsjwnna21/generated/generated_chart.png HTTP/1.1" 200 -
+<Response [200 OK]>
+INFO:     172.29.64.1:56472 - "GET /proxy?url=http%3A%2F%2F172.29.74.224%3A8100%2Fsession_1765531529504_nsjwnna21%2Fgenerated%2Fgenerated_chart.png HTTP/1.1" 200 OK
+INFO:     172.29.64.1:58048 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+172.29.64.1 - - [14/Dec/2025 22:30:24] "GET /session_1765531529504_nsjwnna21/generated/generated_chart.png HTTP/1.1" 200 -
+<Response [200 OK]>
+INFO:     172.29.64.1:49666 - "GET /proxy?url=http%3A%2F%2F172.29.74.224%3A8100%2Fsession_1765531529504_nsjwnna21%2Fgenerated%2Fgenerated_chart.png HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:58048 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:58048 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:58048 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55839 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+172.29.64.1 - - [14/Dec/2025 22:30:33] "GET /session_1765531529504_nsjwnna21/generated/generated_chart.png HTTP/1.1" 200 -
+<Response [200 OK]>
+INFO:     172.29.64.1:52921 - "GET /proxy?url=http%3A%2F%2F172.29.74.224%3A8100%2Fsession_1765531529504_nsjwnna21%2Fgenerated%2Fgenerated_chart.png HTTP/1.1" 200 OK
+INFO:     172.29.64.1:61014 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:50741 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+172.29.64.1 - - [14/Dec/2025 22:30:59] "GET /session_1765531529504_nsjwnna21/generated/final_chart.png HTTP/1.1" 200 -
+172.29.64.1 - - [14/Dec/2025 22:30:59] "GET /session_1765531529504_nsjwnna21/generated/generated_chart.png HTTP/1.1" 200 -
+<Response [200 OK]>
+INFO:     172.29.64.1:53875 - "GET /proxy?url=http%3A%2F%2F172.29.74.224%3A8100%2Fsession_1765531529504_nsjwnna21%2Fgenerated%2Fgenerated_chart.png HTTP/1.1" 200 OK
+<Response [200 OK]>
+INFO:     172.29.64.1:50164 - "GET /proxy?url=http%3A%2F%2F172.29.74.224%3A8100%2Fsession_1765531529504_nsjwnna21%2Fgenerated%2Ffinal_chart.png HTTP/1.1" 200 OK
+INFO:     172.29.64.1:50741 - "OPTIONS /workspace/clear?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:50741 - "DELETE /workspace/clear?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:50741 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:50741 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "POST /workspace/upload-to?dir=&session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "POST /chat/completions HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp1dvra1od.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp_wt9pwtn.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp9w14h42q.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmp99bqa8c9.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpmlzjq4zt.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpuy4ksi1h.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+[exec] Running script: /home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21/tmpyih914sg.py (timeout=120s) cwd=/home/zsss/DeepAnalyze/demo/chat/workspace/session_1765531529504_nsjwnna21
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:56322 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:55618 - "GET /workspace/tree?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     172.29.64.1:54133 - "GET /workspace/files?session_id=session_1765531529504_nsjwnna21 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29065]

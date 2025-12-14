@@ -9,7 +9,8 @@ import os
 os.environ.setdefault("MPLBACKEND", "Agg")
 
 # API Configuration
-API_BASE = "http://localhost:8000/v1"  # vLLM API endpoint
+# API_BASE = "http://localhost:8000/v1"  # vLLM API endpoint
+API_BASE = "http://10.94.208.28:8097/v1"
 MODEL_PATH = "DeepAnalyze-8B"
 WORKSPACE_BASE_DIR = "workspace"
 HTTP_SERVER_PORT = 8100

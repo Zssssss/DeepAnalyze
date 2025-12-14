@@ -25,7 +25,7 @@ def simple_chat():
     if response.status_code == 200:
         result = response.json()
         content = result['choices'][0]['message']['content']
-        print(f"Assistant: {content[:100]}...")
+        print(f"Assistant: {content}...")
     else:
         print(f"❌ Error: {response.text}")
 
